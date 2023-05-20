@@ -8,7 +8,8 @@
   --background-end-rgb: 255, 255, 255;
   --primer:#4F46E5;
   --primer-shadow:#4e46e557;
-  --white:#f9f9f9;
+  --primer-shadow2:#4e46e519;
+  --white:#fafafa;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,8 +19,16 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+*{
+    box-sizing: border-box;
+}
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: #f1f1f1;
+  background: rgb(213,212,242);
+  background: radial-gradient(circle at top left, rgba(213,212,242,.8) 0%, rgba(244,244,244,.6) 50%),
+              radial-gradient(circle at bottom right, rgba(213,212,242,.8) 0%, rgba(244,244,244,.6) 30%);
+  min-height: 100vh;
+  padding-top: 60px;
+  background-position: -50% -50%;
 }
