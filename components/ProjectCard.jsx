@@ -1,6 +1,7 @@
 import { Avatar, IconButton } from '@mui/material'
 import React from 'react'
 import MoreVertRoundedIcon from '@mui/icons-material/MoreVertRounded';
+import Link from 'next/link';
 
 function ProjectCard() {
   return (
@@ -16,7 +17,9 @@ function ProjectCard() {
                         </IconButton>
                     </div>
                     <div className='flex justify-end'>
+                        <Link href="/project/randomid">
                         <button className='px-4 py-2 hover:bg-[var(--primer)] hover:text-white duration-300 bg-[var(--primer-shadow2)] text-[var(--primer)]  rounded-lg'>open</button>
+                        </Link>
                     </div>
                 </div>
   )

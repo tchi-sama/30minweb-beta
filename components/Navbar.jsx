@@ -22,7 +22,7 @@ function Navbar() {
             <SearchRoundedIcon/>
         </div>
         <div className="flex gap-4 flex-1 justify-end items-center">
-          <button className="px-4 py-3 text-sm bg-[var(--primer)] items-center shadow-lg shadow-[var(--primer-shadow)] rounded-xl text-white font-semibold">New Project <AutoAwesomeRoundedIcon/></button>
+          <button className="px-4 hover:scale-[1.01] duration-150  py-3 text-sm bg-[var(--primer)] items-center shadow-lg shadow-[var(--primer-shadow)] rounded-xl text-white font-semibold">New Project <AutoAwesomeRoundedIcon/></button>
           <IconButton>
             <Avatar></Avatar>
           </IconButton>
