@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 const styleSectionActive = 'text-left duration-150 border-l-4 cursor-pointer border-l-[var(--primer)] pl-2 font-semibold text-[var(--primer)] '
 const styleSectionNotActive = "text-left duration-150 cursor-pointer font-semibold text-[var(--primer2)]" 
-const sections = [{name:"Database structure"},{name:"Dashboard"},{name:"settings"}]
+const sections = [{name:"DB structure"},{name:"Dashboard"},{name:"settings"}]
 
 function SectionsBar() {
   const [section,setSection]=useState(0)

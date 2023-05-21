@@ -12,7 +12,35 @@ function page({params}) {
     <div className='container flex-1 mx-auto px-20 flex '>
       <SectionsBar/>
       <div className='flex-1'>
-        <div className='grid grid-cols-4 gap-4'>
+        <div className='columns-4 -space-x-2 space-y-2'>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
+          <DocumentCart/>
           <DocumentCart/>
           <DocumentCart/>
           <DocumentCart/>

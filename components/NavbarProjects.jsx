@@ -5,7 +5,7 @@ import BorderColorRoundedIcon from '@mui/icons-material/BorderColorRounded';
 import Link from "next/link";
 function NavbarProject() {
   return (
-    <div className="mb-20 py-2 bg-[#f1f1f12f] backdrop-blur-sm z-50 sticky top-0  ">
+    <div className="mb-20 py-2 backdrop-blur-sm z-50 ">
       <div className="container items-center mx-auto px-20 flex justify-between">
         <div className="flex-1">
           <Link href="/">
